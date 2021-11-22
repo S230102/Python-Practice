@@ -4,10 +4,10 @@ Created on Sat Nov 13 14:44:32 2021
 
 @author: Sharayu
 """
-pi=3.14
+import math as M
 
 r = float(input("Input the radius of the circle:"))
 
-area= pi*r**2
+area= M.pi*r*r
 
-print("The area of the circle with radius "+str(r)+" is: "+str(area))
+print("The area of the circle with radius "+str(r)+" is %.2f: "%area)
